@@ -1,0 +1,30 @@
+button {
+    margin: 2% 1%;
+    padding: .3% .8%;
+    color: green;
+}
+
+section {
+    width: 90vw;
+    margin: 5vh auto 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.cards {
+    margin-top: 5vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.card {
+    width: 15%;
+    padding: 1% 0;
+    background-color: black;
+    color: white;
+    gap: 20px;
+}
